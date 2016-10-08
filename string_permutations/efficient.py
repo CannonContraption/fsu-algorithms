@@ -2,6 +2,8 @@
 
 import sys
 
+args = sys.argv
+
 def uniquesum(strparam):
 	sum = 0
 
@@ -11,10 +13,10 @@ def uniquesum(strparam):
 
 	return sum
 
-if (len(sys.argv) < 3):
+if (len(args) < 3):
 	raise ValueError("Bad arguments.")
 
-if (uniquesum(sys.argv[1]) == uniquesum(sys.argv[2])):
-	print(sys.argv[1] + " is a permutation of " + sys.argv[2])
+if (uniquesum(args[1]) == uniquesum(args[2])):
+	print(args[1] + " is a permutation of " + args[2])
 else:
-	print(sys.argv[1] + " is not a permutation of " + sys.argv[2])
+	print(args[1] + " is not a permutation of " + args[2])
