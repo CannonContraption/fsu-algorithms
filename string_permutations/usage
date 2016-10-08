@@ -1,0 +1,6 @@
+Both of the scripts take two arguments, which are the strings to be compared.
+
+python efficient.py dog god
+python inefficient.py dog god
+
+python2/python3 compatible.
