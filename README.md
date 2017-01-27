@@ -1,2 +1,2 @@
 # fsu-algorithms
-Implementations of answers to algorithm questions posed in the Framingham State CS club.
+Implementations of answers to Framingham State CS club algo questions.
