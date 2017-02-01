@@ -13,11 +13,13 @@ for letter in range(ord('a'), ord('z')):
 						if int(math.sqrt(conv2))<128:
 							if(conv1 != letter):
 								if(conv1 != lettertwo):
-									sys.stdout.write(str(chr(letter)));
-									sys.stdout.write("	");
-									sys.stdout.write(str(chr(lettertwo)));
-									sys.stdout.write("	");
-									sys.stdout.write(str(chr(int(math.sqrt(letconv-i)))))
-									sys.stdout.write("	")
-									sys.stdout.write(str(chr(int(math.sqrt(letconv-(letconv-i))))))
-									print()
+									if(conv2 != letter):
+										if(conv2 != lettertwo):
+											sys.stdout.write(str(chr(letter)));
+											sys.stdout.write("	");
+											sys.stdout.write(str(chr(lettertwo)));
+											sys.stdout.write("	");
+											sys.stdout.write(str(chr(int(math.sqrt(conv1)))))
+											sys.stdout.write("	")
+											sys.stdout.write(str(chr(int(math.sqrt(conv2)))))
+											print()
